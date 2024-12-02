@@ -662,10 +662,8 @@ item_visual				= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_trijicon_rmr_hud
 
 ;----------------------------------------------------------------------------------------------------------------------------
 [wpn_m4a1_siber_specter]:wpn_m4a1_siber
-
-visual					= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_world.ogf
-
 hud					= wpn_m4a1_siber_specter_hud
+zoom_step_count=1
 
 1icon_layer                              = specter
 1icon_layer_x                            = 65
@@ -699,10 +697,8 @@ item_visual				= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_specter_hud.ogf
 
 ;--------------------------------------------------------------------------------
 [wpn_m4a1_siber_spec_alt]:wpn_m4a1_siber
-
-visual					= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_world.ogf
-
 hud					= wpn_m4a1_siber_spec_alt_hud
+zoom_step_count=1
 
 inv_grid_width     = 5
 inv_grid_height    = 2
@@ -736,9 +732,6 @@ item_visual				= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_spec_alt_hud.ogf
 
 ;--------------------------------------------------------------------------------
 [wpn_m4a1_siber_leupold]:wpn_m4a1_siber
-
-visual					= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_world.ogf
-
 hud					= wpn_m4a1_siber_leupold_hud
 
 1icon_layer                              = leupold
@@ -749,7 +742,7 @@ inv_grid_y         = 40
 inv_weight                                         = 3.280
 scope_status                                       = 1
 
-scope_zoom_factor                                  = 7
+scope_zoom_factor                                  = 15
 zoom_rotate_time                                   = 0.25
 scope_dynamic_zoom                                 = on
 
@@ -763,9 +756,6 @@ item_visual				= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_leupold_hud.ogf
         aim_hud_offset_rot_16x9          = 0.004878, -0.010405, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_m4a1_siber_mark8_rmr]:wpn_m4a1_siber
-
-visual					= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_world.ogf
-
 hud					= wpn_m4a1_siber_mark8_rmr_hud
 
 inv_grid_width     = 5
@@ -776,9 +766,9 @@ inv_grid_y         = 36
 inv_weight                                         = 3.600
 scope_status                                       = 1
 
-scope_zoom_factor                                  = 25
+scope_zoom_factor                                  = 15
 zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = off
+scope_dynamic_zoom                                 = on
 
 scope_zoom_factor_alt             = 0
 
@@ -815,7 +805,6 @@ scope_status                                       = 1
 scope_zoom_factor                                  = 12
 zoom_rotate_time                                   = 0.25
 scope_dynamic_zoom                                 = on
-;installed_upgrades                                 = up_fourtc_svd_nimble
 
 [wpn_m4a1_siber_gauss_sight_hud]:wpn_m4a1_siber_hud
 
@@ -827,6 +816,8 @@ item_visual				= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_gauss_hud.ogf
         aim_hud_offset_rot_16x9          = 0.003833, -0.010581, 0
 ;------------------------------------------------------------------------------------------------------------------------------
 [wpn_m4a1_siber_marchf]:wpn_m4a1_siber
+hud										 = wpn_m4a1_siber_marchf_hud
+
 1icon_layer                              = marchf
 1icon_layer_x                            = 75
 1icon_layer_y                            = -6
@@ -834,17 +825,12 @@ inv_grid_y         = 40
 
 inv_weight                               = 3.240
 
-hud										 = wpn_m4a1_siber_marchf_hud
-
-visual                                   = dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_world.ogf
-
 scope_status                             = 1
 scope_dynamic_zoom                       = on
 
 scope_zoom_factor                        = 6
 
 [wpn_m4a1_siber_marchf_hud]:wpn_m4a1_siber_hud
-
 item_visual                              = dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_marchf_hud.ogf
 
 aim_hud_offset_pos                      = -0.05052, 0.0055, 0.02
@@ -853,9 +839,6 @@ aim_hud_offset_rot                      = -0.0092, -0.0067, 0
 aim_hud_offset_rot_16x9					= -0.0092, -0.0067, 0
 ;------------------------------------------------------------------------------------------------
 [wpn_m4a1_siber_pn23]:wpn_m4a1_siber
-
-visual					= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_world.ogf
-
 hud					= wpn_m4a1_siber_pn23_hud
 
 1icon_layer                              = pn23
@@ -863,15 +846,10 @@ hud					= wpn_m4a1_siber_pn23_hud
 1icon_layer_y                            = -14
 inv_grid_y         = 40
 
-;installed_upgrades                       = up_fourte_svd_nimble
-;scope_nightvision                        = scope_nightvision_3gen
-
-nv_scope_status = 1
-
 inv_weight                                         = 3.25
 scope_status                                       = 1
 
-scope_zoom_factor                                  = 25
+scope_zoom_factor                                  = 20
 zoom_rotate_time                                   = 0.25
 
 [wpn_m4a1_siber_pn23_hud]:wpn_m4a1_siber_hud
@@ -898,7 +876,7 @@ visual                                   = dynamics\weapons\wpn_m4a1_siber\wpn_m
 scope_status                             = 1
 scope_dynamic_zoom                       = off
 
-scope_zoom_factor                                  = 25
+scope_zoom_factor                                  = 30
 
 scope_zoom_factor_alt             = 0
 
@@ -919,9 +897,6 @@ aim_hud_offset_alt_rot                      = 0.007, -0.006, 0
 aim_hud_offset_alt_rot_16x9					= 0.007, -0.006, 0
 ;-----------------------------------------------------------------------------------------------------
 [wpn_m4a1_siber_gee36]:wpn_m4a1_siber
-
-visual					= dynamics\weapons\wpn_m4a1_siber\wpn_m4a1_siber_world.ogf
-
 hud					= wpn_m4a1_siber_gee36_hud
 
 inv_grid_y         = 40
